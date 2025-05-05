@@ -1,0 +1,3 @@
+#003d34 verde 
+#5d3b01 marrom
+#ffefa5 dourado

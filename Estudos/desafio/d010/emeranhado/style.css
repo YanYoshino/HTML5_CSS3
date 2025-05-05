@@ -1,0 +1,52 @@
+@charset "UTF_8";
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+.centralizado{
+    text-align: center;
+}
+header{
+    color: white;
+    background: linear-gradient(to bottom, rgb(39, 246, 39), rgb(1, 93, 1) );
+    width: 100%;
+    padding: 20px
+      
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+main{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+
+}
+.cor{
+    color: green;
+}
+.fonte{
+    background-color: aquamarine;
+}
+.h111{
+    font-family: MinhaFonte;
+    color: green;
+}
+h2{
+    font-family: MinhaFonte;
+    color: green;
+    background-color: aquamarine; 
+}

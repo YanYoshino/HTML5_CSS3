@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'country';
+    src: url(font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+:root{
+    --cor0:#003d34;
+    --cor1:#5d3b01;     
+    --cor2:#ffefa5;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: wheat;
+}
+header{
+    height: 100%;
+    background-image: linear-gradient(to bottom, #005f50a4, #003d34);
+    
+}
+header > img{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+header > p {
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;  
+}
+nav > a:hover{
+    background-color: #5d3b01;
+    color: #ffefa5;
+}
+main{
+    background-color: white;
+
+    padding: 20px;
+    margin: auto;
+
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
+
+    min-width: 300px;
+    max-width: 1000px;
+
+    
+}
+article > h2{
+    color: var(--cor1);
+    font-family: 'country';
+}
+article > p{
+    text-indent: 1em;
+    text-align: justify;
+    line-height: 1.1em;
+    padding-bottom: 10px;
+    
+}
+div.video{
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside  div> h3{
+    color: #ffeea5dd;
+    background-color: var(--cor1);
+    padding: 10px;
+    margin: -20px;
+    border-radius: 10px 10px 0px 0px; 
+}
+aside div > ul{
+    padding-top: 30px;
+    list-style-position: inside;
+    columns: 2;
+}
+footer{
+    background-color: #003d34;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+
+}
